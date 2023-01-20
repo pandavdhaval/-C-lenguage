@@ -1,0 +1,33 @@
+
+
+#include<iostream>
+using namespace std;
+
+
+class newcar
+{
+    public:
+    string name;
+    string model;
+    int year;
+    
+    
+};
+
+
+int main()
+{
+    newcar car1;
+    
+    car1.name="oddi";
+    car1.model="oddiN450 ";
+    car1.year=2022;
+    
+    
+    cout<<"car name :"<<car1.name<<endl;
+    cout<<"model name :" <<car1.model<<endl;
+     cout<<"year :"<<car1.year<<endl;
+    return 0;
+}
+  
+  

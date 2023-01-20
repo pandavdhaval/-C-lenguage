@@ -1,0 +1,62 @@
+
+
+// only one perent class and more than chaild class that is hierarchical inheritence
+
+
+ #include <iostream>
+ using namespace std;
+
+class perentclass
+{
+  public:
+  int a=10;
+  void methord()
+  {
+      cout<<"first number :"<<a;
+  }
+};
+
+class b : public perentclass
+{
+  public:
+  int b=20;
+  
+  void methordb()
+  {
+  cout<<"ans b :"<<a+b;
+  }
+};
+
+class c : public perentclass
+{
+    public:
+    int c=20;
+    void methordc()
+    {
+        cout<<" ans c :"<<c+a;
+    }
+};
+
+class d : public perentclass
+{
+     public:
+    int d=20;
+    void methordd()
+    {
+        cout<<" ans c :"<<d+a;
+    }
+};
+
+
+
+int main()
+{
+  b obj;
+  c obj1;
+  d obj2;
+   
+    obj.methordb();
+    obj1.methordc();
+    obj2.methordd();
+    return 0;
+}

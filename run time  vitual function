@@ -1,0 +1,38 @@
+
+
+
+  #include <iostream>
+  using namespace std;
+  
+  class vitual
+  {
+    public:
+    
+    void vitu()
+    {
+        cout<<"this is vitual function";
+    }
+  };
+  
+  
+  class vitual1 : public vitual
+  {
+    
+    public:
+    void vitu()
+    {
+        cout<<"vitual function ";
+    }
+      
+  };
+  
+  
+  
+  int main()
+  {
+      vitual1 obj;
+      obj.vitu();
+      
+      
+      return 0;
+  }

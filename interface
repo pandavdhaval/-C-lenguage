@@ -1,0 +1,48 @@
+
+#include <iostream>
+using namespace std;
+
+class  interface
+{
+    public:
+    virtual  void methord()=0;
+    
+    void function()
+    {
+        cout<<"name interfece :"<<endl;
+    }
+};
+
+class interface2: public interface
+{   
+    public:
+    void methord()
+    {
+      cout<<"amaunt :"<<endl;    
+    }
+};
+
+class interface3: public interface2
+
+{
+    public:
+    void methord()
+    {
+        cout<<"amaunt 2 :";
+    }
+};
+
+
+int main()
+{
+    interface3 obj;
+    obj.function();
+    obj.methord();
+
+    
+    
+    return 0;
+}
+
+
+

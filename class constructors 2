@@ -1,0 +1,43 @@
+
+
+
+#include<iostream>
+using namespace std;
+
+class book
+{
+    public:
+     
+    string name,authar,id;
+    int year;
+    
+    public:
+    
+    book(string x,string y,string z,int w)
+    {
+        name=x;
+        authar=y;
+        id=z;
+        year=w;
+    }
+    
+};
+
+
+int main()
+{ 
+    
+ 
+    book obj1 ("bigbull","harshad mehta","RDF01",1992);
+    book obj2 ("bigbull 2","rakesh junjunvala","RDF002",2002);
+    
+ 
+    cout<<"book name : "<<obj1.name<<endl<<"authar name : "<<obj1.authar<<endl<<"id :"<<obj1.id<<endl<<"year :"<<obj1.year<<endl<<endl;
+    
+    cout<<"book............................2 "<<endl<<endl;
+    
+    cout<<"book name : "<<obj2.name<<endl<<"authar name : "<<obj2.authar<<endl<<"id :"<<obj2.id<<endl<<"year :"<<obj2.year<<endl;
+    
+    return 0;
+}
+

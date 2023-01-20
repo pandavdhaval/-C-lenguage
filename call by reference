@@ -1,0 +1,23 @@
+
+
+#include <stdio.h>
+
+void changfunction(int *number)
+{
+     *number+=100;
+     
+     printf("\nafter number %d",*number);
+}
+
+
+
+int main()
+{
+   int  x=500;
+    printf(" \nbefore number %d",x);
+    
+   changfunction(&x);
+    
+    printf("\nnew number %d",x);
+    return 0;
+}

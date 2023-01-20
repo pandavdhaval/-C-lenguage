@@ -1,0 +1,61 @@
+
+
+
+
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a,c;
+    
+    cout<<"enter number :";
+    cin>>a;
+    
+    for(int i=1; i<=10; i++)
+    { 
+        c=a*i;
+        
+        cout<<a <<"*"<<i<<"="<<c<<endl;
+    }
+    
+    
+    
+    return 0;
+}
+
+
+
+*******************************************************
+
+
+
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a,c;
+    
+    cout<<"enter number :";
+    cin>>a;
+    
+    for(int i=1; i<=10; i++)
+    { 
+        for(int j=a; j<=a+9; j++)
+        {
+        c=j*i;
+        
+        cout<<j<<"*"<<i<<"="<<c<<;
+            
+        }
+        
+        cout<<endl;
+    }
+    
+    
+    
+    return 0;
+}

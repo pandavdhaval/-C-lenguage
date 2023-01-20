@@ -1,0 +1,122 @@
+
+ // input method -----------------
+
+
+
+
+
+  
+#include <iostream>
+using namespace std;
+
+
+class myname
+{
+    public:
+    void mymethord()
+    {
+        cout<<"hello word"<<endl;
+    }
+};
+  
+  int main()
+  {
+     myname  obj;
+     
+     obj.mymethord();
+      
+      
+      return 0;
+  }
+
+
+
+
+
+
+*********************************************
+
+//output method--------------------
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+class myname
+{
+    public:
+    void mymethord();
+    
+};
+   
+  void myname::mymethord()
+  {
+      cout<<"hello word";
+  }
+   
+   
+int main()
+{
+    myname obj1;
+    
+  obj1.mymethord();
+
+
+  Retur 0;
+}
+
+
+
+
+
+********************************************
+
+
+Return method-------------------------------
+
+
+
+#include <iostream>
+using namespace  std;
+
+class myname
+{
+    public:
+    
+    void mymethord(int a,int b)
+    {
+        cout<<"aditon :"<<a+b;
+    }
+    
+    int mymethord1(int c,int a,int b)
+    {
+        return c=a*b;
+    }
+    
+};
+
+int main()
+{
+    
+    myname obj1;
+    
+    int a,b,c;
+ 
+    cout<<"enter a. :";
+    cin>>a;
+    
+    cout<<"enter b. :";
+    cin>>b;
+    
+    
+      obj1.mymethord(a,b);
+      c=obj1.mymethord1(c,a,b);
+      
+      cout<<"multi"<<c;
+
+   
+}

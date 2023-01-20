@@ -1,0 +1,53 @@
+
+
+#include<iostream>
+using namespace std;
+
+
+class inf
+{
+    
+    public:
+    
+    void method(int c)
+    {
+        cout<<"information book data :"<<c;
+    }
+    
+    int method1(int c)
+    {
+        cout<<"ans 1 :"<<c;
+        return c+200;
+    }
+};
+
+int main()
+{
+    inf obj1;
+    
+    int a,b,c;
+    
+    cout<<"enter number :";
+    cin>>a;
+    
+    cout<<"enter number :";
+    cin>>b;
+    
+    c=a+b;
+    obj1.method(c);
+    
+    c=obj1.method1(400);
+    
+    cout<<"ans"<<c;
+    return 0;
+}
+
+    
+    
+      obj1.mymethord(a,b);
+      c=obj1.mymethord1(c,a,b);
+      
+      cout<<"multi"<<c;
+
+   
+}

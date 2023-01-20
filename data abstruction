@@ -1,0 +1,43 @@
+
+/******************************************************************************
+ data abstruction atle khali result j batave prosess batavtu nathi ,,,
+*******************************************************************************/
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+class abstruction
+{
+   private:
+   int a,b;
+  
+  public:
+ 
+      void set(int x,int y)
+     { 
+      a=x;
+      b=y;
+     }
+  
+
+
+      void get()
+      {
+      cout<<"addition "<<a+b;
+      }
+    
+};
+
+
+int main()
+{
+    abstruction obj;
+    obj.set(10,30);
+    obj.get();
+    
+    return 0;
+}

@@ -1,0 +1,26 @@
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a,b,quotient,reminder;
+    
+    cout<<"enter number :";
+    cin>>a;
+    
+    cout<<"enter number :";
+    cin>>b;
+    
+    quotient=a/b;
+    reminder=a%b;
+    
+    cout<<"quotient number :"<<quotient<<endl;
+    cout<<"reminder number :"<<reminder;
+    
+    return 0;
+    
+}

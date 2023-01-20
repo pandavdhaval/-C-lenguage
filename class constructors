@@ -1,0 +1,21 @@
+
+
+#include <iostream>
+using namespace std;
+
+class myname
+{
+    public:
+    
+    myname()
+    {
+        cout<<"hello word";
+    }
+};
+
+int main()
+{
+    myname obj;
+    
+    return 0;
+}

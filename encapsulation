@@ -1,0 +1,39 @@
+
+
+#include <iostream>
+using namespace std;
+
+class company
+{
+    private:
+    
+    int workar=200;
+    
+    public:
+    void setworkar(int s)
+    {
+        cout<<"\nbefore workar :"<<workar;
+        
+        workar=s;
+        
+        cout<<"\nafter workar :"<<workar;
+    }
+    int getworkar()
+    {
+        return workar;
+    }
+    
+};
+
+int main()
+{
+    company obj1;
+    
+    obj1.setworkar(500);
+    
+   int c=obj1.getworkar();
+    cout<<"\nnew workar "<<c;
+    
+    
+    return 0;
+}

@@ -1,0 +1,43 @@
+
+
+
+// function na name sem hoy and peramiter different hoy that is function overloding 
+
+#include <iostream>
+using namespace std;
+
+
+class function_over
+{
+    
+    public:
+    
+    void function(int x)
+    {
+        cout<<"ans 1:"<<x;
+    }
+    
+    void function(int x,int y)
+    {
+        cout<<"\nans 2:"<<x<<" "<<y;
+    }
+    
+    void function(double z)
+    {
+        cout<<"\nans 3:"<<z;
+    }
+};
+
+
+
+int main()
+{
+    
+    function_over obj;
+    obj.function(10);
+    obj.function(20,30);
+    obj.function(20.25);
+    
+    
+    return 0;
+}

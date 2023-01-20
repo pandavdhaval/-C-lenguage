@@ -1,0 +1,59 @@
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+        
+    
+    int a,b,n;
+    char c;
+    
+    do
+    {
+    
+    cout<<"enter number ";
+    cin>>a;
+    
+    cout<<"enter number ";
+    cin>>b;
+     
+     
+     cout<<"enter char";
+     cin>>c;
+    
+    switch(c)
+    {
+        case '+':
+        cout<<"addition "<<a+b;
+        break;
+        
+        case '-':
+        cout<<"subtrection "<<a-b;
+        break;
+        
+        case '/':
+        cout<<"divition "<<a/b;
+        break;
+        
+        case '*':
+        cout<<"multiflicaton "<<a*b;
+        break;
+        
+        default:
+        cout<<"not walid";
+        break;
+    
+      
+    }
+       cout<<"\nare u continue ";
+       cin>>n;
+    
+    }
+     while(n==1);
+    
+    
+    
+    return 0;
+}

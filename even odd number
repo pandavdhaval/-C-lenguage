@@ -1,0 +1,29 @@
+
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num;
+    
+    cout<<"enter number :";
+    cin>>num;
+    
+    if(num%2==0)
+    {
+        cout<<"this number is even :" <<num;
+
+    }
+    else
+    {
+        cout<<"this number is odd : " <<num;
+    }
+    
+    
+    
+    return 0;
+}
+
+

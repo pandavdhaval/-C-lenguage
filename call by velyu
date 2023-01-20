@@ -1,0 +1,23 @@
+
+#include <stdio.h>
+
+void changfunction(int x)
+ {
+    
+     x=x+1000;
+     
+     printf("\nafter number %d",x);
+     
+ }
+ 
+ int main()
+ {
+     int x=1000;
+     printf("before number %d",x);
+     
+     changfunction(x);
+     
+     printf("\nold velyu %d",x);
+     
+     return 0;
+ }

@@ -1,0 +1,88 @@
+
+
+
+
+
+  #include <iostream>
+  using namespace std;
+  
+  int main()
+  {
+      int a,b;
+      
+      cout<<"enter number :";
+      cin>>a;
+      
+      cout<<"enter number :";
+      cin>>b;
+      
+      cout<<" addition number :"<<a+b;
+      
+      
+      
+      
+      return 0;
+  }
+  
+**********************************************************
+
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a,b;
+    
+    cout<<"enter number :";
+    cin>>a;
+    
+    cout<<"enter number :";
+    cin>>b;
+    
+    cout<<"multiflication"<<a*b;
+    
+    
+    
+    return 0;
+}
+
+
+***********************************************************
+
+#include <iostream>
+using namespace std;
+{
+     int a,b;
+    
+    cout<<"enter number :";
+    cin>>a;
+    
+    cout<<"enter number :";
+    cin>>b;
+    
+    cout<<"substruction"<<a-b;
+    
+    return 0;
+}
+
+***************************************************************
+
+
+
+#include <iostream>
+using namespace std;
+{
+     int a,b;
+    
+    cout<<"enter number :";
+    cin>>a;
+    
+    cout<<"enter number :";
+    cin>>b;
+    
+    cout<<"division "<<a/b;
+    
+    return 0;
+}
+
